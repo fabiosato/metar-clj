@@ -1,8 +1,6 @@
-# metar-clj
+A Clojure library to parse METAR data files.
 
-A Clojure library designed to parse METAR data files.
-
-This library relies on the great instaparse library to create a very robust implementation of a METAR decoder.
+This library relies on the great instaparse library to create a robust and flexible implementation of a METAR decoder.
 
 The grammar was based on the official documents from WMO (CODE Forms and Appendix III).
 
@@ -15,3 +13,6 @@ lein run resources/sbct.txt
 Copyright © 2013 FIXME
 
 Distributed under the Eclipse Public License, the same as Clojure.
+=======
+metar-clj
+=========
