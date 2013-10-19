@@ -16,3 +16,7 @@ Distributed under the Eclipse Public License, the same as Clojure.
 =======
 metar-clj
 =========
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/fabiosato/metar-clj/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
