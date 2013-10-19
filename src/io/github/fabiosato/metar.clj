@@ -99,7 +99,9 @@
     TEMPERATURE = AIR_TEMPERATURE <'/'> DEWPOINT_TEMPERATURE <sp>
     AIR_TEMPERATURE = MINUS? #\"\\d{2}\"
     DEWPOINT_TEMPERATURE = MINUS? #\"\\d{2}\"
-    PRESSURE = <'Q'> #\"\\d{4}\"
+    PRESSURE = hPA | inHg
+    hPA = <'Q'> #\"\\d{4}\"
+    inHg = <'A'> #\"\\d{4}\" (* americans really like to mess up with units *)
     END = #\".*\" '='?
     "
     ))
