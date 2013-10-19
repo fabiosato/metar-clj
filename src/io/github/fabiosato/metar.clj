@@ -106,9 +106,6 @@
     "
     ))
 
-(def testcode "METAR LBBG 041600Z 12003MPS 310V290 1400 R04/P1500N R22/P1500U +SN BKN022 OVC050 M04/M07 Q1020 NOSIG 9949//91=")
-(def testcode2 "METAR SBFL 120000Z 03008KT 9999 FEW020 BKN035 21/17 Q1020=")
-
 (defn process-metar-file
   "Process a metar data file. f can be either a URL/URI, filename or File object."
   [f]
